@@ -1,0 +1,777 @@
+@font-face {
+
+font-family: canopee;
+src: url(./Source/canopee.ttf);
+
+}
+
+@font-face {
+
+    font-family: domain;
+    src: url(./Source/domain.ttf);
+    
+    }
+
+    @font-face {
+
+        font-family: gilroy;
+        src: url(./Source/Gilroy-Medium.ttf);
+        
+        }
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+html,body {
+
+height: 100%;
+width: 100%;
+
+}
+
+#main{
+
+    min-height: 100vh;
+    width: 100%;
+    background-color: #c5bdb3;
+}
+
+#nav{
+
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background-color: #c5bdb3;
+    justify-content: space-between;
+    position: static;
+    padding: 0 2.5vw;
+    border-bottom: 1px solid black;
+ 
+}
+
+#nav1 h4{
+
+    font-family: domain;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#nav2 img{
+
+    height: 35px;
+}
+
+#nav3 i{
+
+    font-size: 25px;
+    font-weight: 600;
+   
+}
+
+#section{
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 2vw 4vw;
+  
+}
+
+#elem1{
+
+    height: 100%;
+    width: 33.3%;
+    position: relative;
+    border-right: 1px solid black;
+}
+
+
+
+#elem1 #lamp img{
+
+    height: 53%;
+    width: 86%;
+    border: 1px solid black;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+
+#elem1 #h4 h4{
+
+    font-family: domain;
+    font-size: 30px;
+    margin-right: 3px;
+   margin-top: 190px;
+}
+
+#elem1 #h4 h4 span{
+
+    margin-left: 3px;
+}
+
+
+#elem1 #h4 p{
+
+    font-family: domain;
+    font-size: 21px;
+    margin-top: 12px;
+    color: rgb(66, 61, 61);
+   font-weight: 500;
+
+}
+
+
+#elem2{
+
+    height: 100%;
+    width: 33.3%;
+    text-align: center;
+    
+}
+
+#elem2 h1{
+
+    font-family: canopee;
+    font-weight: 500;
+    font-size: 80px;
+    letter-spacing: -3px;
+}
+
+#elem2 h4{
+
+    font-family: domain;
+    font-size: 43px ;
+    letter-spacing: -0.5px;
+    margin-top: 30px;
+    color: #1c1c1a; 
+    line-height: 1;
+    font-weight: 500;
+}
+
+#elem2 h5{
+
+    font-family: domain;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 23px;
+    
+}
+
+
+#elem3{
+
+    height: 100%;
+    width: 33.3%;
+    position: relative;
+   border-left: 1px solid black ;
+}
+
+
+#elem3 #shoe img{
+
+    height: 53%;
+    width: 86%;
+    right: 0;
+    border: 1px solid black;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+}
+
+#elem3 #h3{
+
+    margin-left: 4.25vw ;
+}
+
+#elem3 #h3 h4{
+
+    font-family: domain;
+    font-size: 30px;
+   margin-top: 190px;
+}
+
+#elem3 #h3 p{
+
+    font-family: domain;
+    font-size: 20px;
+    margin-top: 15px;
+    color: rgb(66, 61, 61);
+   font-weight: 500;
+
+}
+
+#miranda{
+
+    padding: 0 2vw;
+}
+
+#miranda h1{
+
+    font-family: canopee;
+    font-weight: 500;
+    color: #c5bdb3;
+    letter-spacing: -12px;
+    background-color: #1c1c1a;
+    line-height: 0.87;
+    font-size: 560px;
+}
+
+
+
+
+#page2{
+
+  height: 1190px;
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+
+
+  
+}
+
+ #left{
+
+    height: 100%;
+    width: 35%;
+    position: relative;
+    padding: 0 2vw;
+    border-right: 1px solid black;
+  
+}
+
+#left h2{
+
+    font-family: canopee;
+    letter-spacing: -2px;
+    color: #1c1c1a;
+    font-size: 120px;
+    font-weight: 500;
+}
+
+#left h1{
+
+    font-family: canopee;
+    letter-spacing: -5px;
+    line-height: 0.7;
+    color: #1c1c1a;
+    font-size: 220px;
+    font-weight: 500;
+}
+
+#left #star{
+
+    height: 600px;
+    background-color: black;
+    background-image: url(./Source/star.jpeg);
+    border: 1px solid black;
+    background-position: right;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+#left p{
+
+    font-size: 38px;
+    font-family: domain;
+    line-height: 1;
+    font-weight: 500;
+    color: #1c1c1a;
+    margin-top: 30px;
+}
+
+#right{
+
+    height: 100%;
+    width: 65%;
+    padding: 0 3vw;
+   
+}
+
+#nose{
+
+    height: 40vw;
+    background-image: url(./Source/nose.jpeg);
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+#right h1{
+
+    font-family: canopee;
+    font-size: 130px;
+    margin-top: 50px;
+    color: #1c1c1a;
+    line-height: 0.95;
+    letter-spacing: -5px;
+    font-weight: 500;
+}
+
+#page3{
+
+    margin-top: 50px;
+}
+
+
+#page3 #web{
+
+    padding: 0 2vw;
+    display: flex;
+}
+
+#page3 #web h1{
+
+    font-size: 450px;
+    padding: 0 2vw;
+    font-family: canopee;
+    letter-spacing: -12px;
+    line-height: 0.87;
+    color: #c5bdb3;
+    background-color: #1c1c1a;
+    font-weight: 500;
+}
+
+
+
+#page3 #stamp img{
+
+    height: 390px;
+   margin-left: 30px;
+}
+
+#page4{
+
+    height: 128vh;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+}
+
+#left1{
+
+    width: 65%;
+    padding: 0 2vw;
+    border-right: 1px solid black;
+    
+}
+
+#left1 #next{
+
+    height: 317px;
+    display: flex;
+   
+}
+
+#next #time{
+
+    width: 50%;
+    padding: 0 1vw;
+    border-right: 1px solid black;
+   
+}
+
+#next #time h2{
+
+    font-family: domain;
+    color: #1c1c1a;
+    font-size: 70px;
+    letter-spacing: -3px;
+    font-weight: 500;
+}
+
+#next #time p{
+
+    font-size: 48px;
+    letter-spacing: -1px;
+    margin-top: 15px;
+    font-weight: 500;
+    line-height: 1;
+    font-family: domain;
+    color: #2e2e2c;
+}
+
+#next #time h5{
+
+    font-size: 23px;
+    margin-top: 30px;
+    font-family: domain;
+    color: #383834;
+    font-weight: 500;
+    
+}
+
+#next #tip{
+
+    width: 50%;
+    padding: 0 1.5vw;
+    margin-left: 10px;   
+ 
+}
+
+#tip #hat{
+
+    height: 170px;
+    background-image: url(./Source/hat.webp);
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+    border: 1px solid black;
+    background-color: black;
+
+}
+
+#tip h3{
+
+    font-size: 32px;
+    font-family: domain;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+#tip p{
+
+    font-family: domain;
+    font-size: 21px;
+    margin-top: 12px;
+    color: rgb(66, 61, 61);
+   font-weight: 500;
+    
+}
+
+#mind{
+
+    height: 650px;
+    border: 1px solid black;
+    margin-top: 40px;
+   background-image: url(./Source/mind.jpeg);
+   background-position: center;
+   background-size: cover;
+}
+
+#right1{
+
+    width: 35%;
+    padding: 0 2VW;
+   
+}
+
+#right1 h2{
+
+    font-size: 105px;
+    letter-spacing: -2px;
+    color: #1c1c1a;
+    font-family: canopee;
+    font-weight: 500;
+
+}
+
+#right1 h1{
+
+    font-size: 225px;
+    line-height: 0.7;
+    color: #1c1c1a;
+    letter-spacing: -8px;
+    font-family: canopee;
+    font-weight: 500;
+
+}
+
+#right1 p{
+
+    margin-top: 40px;
+    font-size: 36px;
+    color: #30302e;
+    font-family: domain;
+    font-weight: 500;
+}
+
+#right1 h3{
+
+    font-size: 100px;
+    margin-top: 50px;
+    padding: 50px 20px;
+    color: #1c1c1a;
+    border-radius: 50%;
+    border: 0.3px solid #383834;
+    letter-spacing: -2px;
+    font-family: canopee;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+#strip{
+
+    height: 210px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 2vw;
+    
+}
+
+#nav-num{
+
+    height: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+
+}
+
+#nav-num #pit{
+
+    width: 25%;
+    padding: 3vw 0;
+    display: flex;
+  
+}
+
+
+
+#award p{
+
+    font-size: 35px;
+    font-family: domain;
+    initial-letter: -1px;
+    font-weight: 500;
+    color: #30302e;
+
+}
+
+
+#award h1{
+
+    font-size: 80px;
+    line-height: 0.9;
+    color: #1c1c1a;
+    margin-left: 5px;
+    font-family: canopee;
+    font-weight: 500;
+}
+
+#num-h1 h1{
+
+    font-size: 150px;
+    font-family: canopee;
+    color: #1c1c1a;
+    font-weight: 500;
+}
+
+.aclaim p{
+
+    margin-left: 60px;
+}
+
+
+
+#ear{
+
+    min-height: 95vh;
+    margin-top: 50px;
+    display: flex;
+ 
+}
+
+#ear1{
+
+    width: 50%;
+    position: relative;
+    padding-left: 2vw;
+
+
+}
+
+#ear1 #yt{
+
+    height: 50%;
+    display: flex;
+  
+}
+
+#yt #cap{
+
+  width: 250px;
+  height: 92%;
+  border: 1px solid black;
+  background-image: url(./Source/cap.jpeg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+
+#yt h1{
+
+    font-size: 500px;
+    font-family: canopee;
+    color: #1c1c1a;
+    margin-left: 15px;
+    line-height: 0.73;
+    font-weight: 500;
+    letter-spacing: -20px;
+}
+
+
+#ear1 #ty{
+
+    height: 50%;
+    
+}
+
+#ear1 #ty h1{
+
+    font-size: 525px;
+    color: #1c1c1a;
+    font-family: canopee;
+    font-weight: 500;
+    margin-right: 60px;
+    line-height: 0.73;
+    letter-spacing: -27px;
+}
+
+
+
+#ear2{
+
+    width: 50%;
+    padding: 0 2vw;
+
+}
+
+#eye-star{
+
+    height: 743px;
+    border: 1px solid black;
+    margin-left: 15px;
+   background-image: url(./Source/eye-star.jpeg);
+   background-position: center;
+   background-size: cover;
+}
+
+#page5{
+
+    height: 170px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 2vw;
+}
+
+#moving{
+
+    height: 100%;
+    padding: 2vw 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+   
+}
+
+#moving::-webkit-scrollbar{
+
+    display: none;
+}
+
+
+#moving h1{
+
+    font-size: 80px;
+    display: inline-block;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-right: 20px;
+    font-weight: 100;
+    font-family: domain;
+}
+
+
+#moving h1 span{
+
+    background-color: #1c1c1a;
+    font-family: canopee;
+    color: #c4bcb3;
+    padding: 0 1vw;
+}
+
+@keyframes scroll {
+    
+    0%{
+        transform: translateX(0);
+      
+    }
+
+    100%{
+
+        transform: translateX(calc(-100% - 24px));
+    }
+}
+
+#page6{
+
+    height: 80px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    width: 100%;
+ 
+}
+
+#page6 h2{
+    
+    font-size: 30px;
+    color: #1c1c1a;
+    font-family: canopee;
+    font-weight: 500;
+
+}
+
+#twitter{
+
+    display: flex;
+    gap: 30px;
+ 
+}
+
+#twitter h2{
+
+    font-size: 30px;
+    color: #1c1c1a;
+    font-family: canopee;
+    font-weight: 500;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
